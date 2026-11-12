@@ -15,6 +15,9 @@ body {
 }
 
 .kartu-profil img {
-    width: 150px;
-    border-radius: 50%;
+    width: 90px;                 /* Ukuran foto diperkecil */
+    height: auto;                /* Menjaga proporsi asli gambar */
+    border-radius: 10px;         /* Sudut agak melengkung */
+    display: block;              /* Mengubah elemen menjadi block */
+    margin: 0 auto 15px auto;    /* Posisinya pas di tengah horizontal dengan jarak bawah */
 }
